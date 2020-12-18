@@ -1,0 +1,11 @@
+@types/
+lib/
+node_modules/
+test/
+.gitignore
+.prettierrc
+.travis.yml
+runtests.js
+tsconfig.json
+tsconfig.cjs.json
+tslint.json

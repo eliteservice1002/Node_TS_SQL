@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "outDir": "./dist/esm",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "pretty": true,
+        "sourceMap": true,
+        "lib": ["es2017", "esnext.asynciterable"],
+        "strict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitReturns": true,
+        "declaration": true,
+        "baseUrl": "./lib",
+        "typeRoots": ["@types", "node_modules/@types"]
+    },
+    "include": ["./lib/**/*.ts", "./lib/**/*.js", "./lib/**/*.d.ts"],
+    "exclude": ["node_modules"],
+    "compileOnSave": true,
+    "buildOnSave": true
+}
